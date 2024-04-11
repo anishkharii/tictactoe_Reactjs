@@ -1,0 +1,29 @@
+
+
+body{
+    padding:0;
+    margin:0;
+    font-family:'Nunito', sans-serif;
+    text-align: center;
+    display: flex;
+    background-color: #f1f3f8;
+    justify-content: center;
+    user-select: none;
+    overflow: hidden;
+}
+
+button, .btn{
+  border: none;
+  background-color: #fff;
+  font-size: 1rem;
+  padding: 0.5rem;
+  margin: 10px;
+  border-radius: 5px;
+  box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 6px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+  cursor: pointer;
+  transition: all .2s ease-in;
+}
+
+button:active, .btn:active{
+  box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 6px -3px;
+}
